@@ -1,0 +1,55 @@
+@import url("styles/fonts/stylesheet.css");
+
+@font-face {
+    font-family: 'IntegralCF-Regular';
+    src: url('fonts/IntegralCF-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Integralbold';
+    src: url('fonts/IntegralCF-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Integralxbold';
+    src: url('fonts/IntegralCF-ExtraBold.ttf') format('truetype');
+    
+  }
+
+  @font-face {
+    font-family: 'Integralheavy';
+    src: url('fonts/IntegralCF-Heavy.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Manifoldreg';
+    src: url('fonts/ManifoldCF-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Manifoldxbold';
+    src: url('fonts/ManifoldCF-ExtraBold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Manifolddemi';
+    src: url('fonts/ManifoldCF-DemiBold.ttf') format('truetype');
+  }
+
+
+  
+  /* Algemeen */
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+p{
+  font-family: 'Manifoldreg';
+}
+
